@@ -1,0 +1,52 @@
+Folder PATH listing
+Volume serial number is 16E6-45E0
+D:.
+¦   environment.ts
+¦   index.html
+¦   main.ts
+¦   src-structure.txt
+¦   styles.scss
+¦   
++---app
+    ¦   app.component.html
+    ¦   app.component.scss
+    ¦   app.component.spec.ts
+    ¦   app.component.ts
+    ¦   app.config.ts
+    ¦   app.routes.ts
+    ¦   
+    +---core
+    ¦   ¦   core.module.ts
+    ¦   ¦   index.ts
+    ¦   ¦   
+    ¦   +---guards
+    ¦   +---interceptors
+    ¦   +---services
+    ¦           fire-auth.service.spec.ts
+    ¦           fire-auth.service.ts
+    ¦           fire-functions.service.ts
+    ¦           fire-storage.service.spec.ts
+    ¦           fire-storage.service.ts
+    ¦           firestore.service.spec.ts
+    ¦           firestore.service.ts
+    ¦           
+    +---features
+    ¦   ¦   index.ts
+    ¦   ¦   
+    ¦   +---auth
+    ¦   ¦       auth.component.ts
+    ¦   ¦       auth.module.ts
+    ¦   ¦       auth.service.ts
+    ¦   ¦       
+    ¦   +---dashboard
+    ¦           dashboard.component.ts
+    ¦           dashboard.module.ts
+    ¦           dashboard.service.ts
+    ¦           
+    +---shared
+        ¦   index.ts
+        ¦   shared.module.ts
+        ¦   
+        +---components
+        +---directives
+        +---pipes
